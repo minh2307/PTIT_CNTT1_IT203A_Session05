@@ -66,7 +66,7 @@ public class ExamMiniProject {
     }
 
     public static void addStudent(String[] students) {
-        sc.nextLine();
+
         String mssv;
 
         do {
@@ -87,7 +87,7 @@ public class ExamMiniProject {
     public static void updateStudents(String[] students) {
         System.out.print("Nhập vị trí cần sửa: ");
         int index = sc.nextInt();
-        sc.nextLine();
+        
 
         if (index < 0 || index >= students.length || students[index] == null) {
             System.out.println("Vị trí không hợp lệ.");
@@ -124,7 +124,7 @@ public class ExamMiniProject {
     }
 
     public static void searchStudent(String[] students) {
-        sc.nextLine();
+        
         System.out.print("Nhập chuỗi cần tìm: ");
         String keyword = sc.nextLine();
 
@@ -148,3 +148,4 @@ public class ExamMiniProject {
 
 
 }
+
